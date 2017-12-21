@@ -1025,7 +1025,8 @@ ts-jumper ts-jumper-container {
 	div.comment_body,
 	i.comment_cog.ts_icon.ts_icon_cog.ts_icon_inherit,
 	span.mini.indifferent_grey.file_comment_tip,
-	div.lfs_item.selected.single
+	div.lfs_item.selected.single,
+	a.message_sender.color_U8EB5ES5C.color_df3dc0.member.member_preview_link
 	{
 		color: #8f8f8f !important;
 	}
