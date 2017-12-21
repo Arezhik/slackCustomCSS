@@ -1002,7 +1002,7 @@ ts-jumper ts-jumper-container {
 	div.channel_desktop_notifs.small_bottom_margin,
 	div.channel_push_notifs.bottom_margin,
 	div.channel_purpose_text.no_jumbomoji,
-	a.message_sender.color_U8FF2F944.color_aba727.member.member_preview_link,
+	a.message_sender,
 	span.title.break_word a,
 	button.star.ts_icon.ts_icon_star_o.ts_icon_inherit.ts_tip_top.star_file.ts_tip.ts_tip_multiline.ts_tip_float.ts_tip_hidden.btn_unstyle,
 	span.ts_tip_btn.ts_icon.ts_icon_pencil,
@@ -1010,8 +1010,7 @@ ts-jumper ts-jumper-container {
 	div.comment_body,
 	i.comment_cog.ts_icon.ts_icon_cog.ts_icon_inherit,
 	span.mini.indifferent_grey.file_comment_tip,
-	div.lfs_item.selected.single,
-	a.message_sender
+	div.lfs_item.selected.single
 	{
 		color: #8f8f8f !important;
 	}
