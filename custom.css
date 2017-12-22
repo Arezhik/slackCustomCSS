@@ -1012,7 +1012,8 @@ ts-jumper ts-jumper-container {
 	span.mini.indifferent_grey.file_comment_tip,
 	div.lfs_item.selected.single,
 	a.member_preview_link,
-	span.attachment_source_name a
+	span.attachment_source_name a,
+	span.inline_img_bytes
 	{
 		color: #8f8f8f !important;
 	}
