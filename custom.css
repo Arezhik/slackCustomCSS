@@ -1011,7 +1011,8 @@ ts-jumper ts-jumper-container {
 	i.comment_cog.ts_icon.ts_icon_cog.ts_icon_inherit,
 	span.mini.indifferent_grey.file_comment_tip,
 	div.lfs_item.selected.single,
-	a.member_preview_link
+	a.member_preview_link,
+	span.attachment_source_name a
 	{
 		color: #8f8f8f !important;
 	}
