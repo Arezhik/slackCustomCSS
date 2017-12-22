@@ -1038,7 +1038,7 @@ ts-jumper ts-jumper-container {
 	div.feature_increase_msg_input_height.ql-container,
 	li.tab_complete_ui_item
 	{
-		background-color: #000;
+		background-color: #000 !important;
 	}
 	
 	div.ql-editor.ql-blank {
