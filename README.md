@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
    // Fetch our CSS in parallel ahead of time
    // Note this will be updated with my rawgit url.
-   const cssPath = 'https://cdn.rawgit.com/widget-/slack-black-theme/master/custom.css';
+   const cssPath = 'https://rawgit.com/Arezhik/slackCustomCSS/master/custom.css';
    let cssPromise = fetch(cssPath).then(response => response.text());
 
    let customCustomCSS = `
