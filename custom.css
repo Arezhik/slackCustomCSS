@@ -1053,7 +1053,8 @@ ts-jumper ts-jumper-container {
 	}
 
 
-	div.channel_browser_divider {
+	div.channel_browser_divider,
+	h3.p-emoji_picker__heading{
 		background-color: #222 !important;
 		font-size: 16px !important;
 	}
