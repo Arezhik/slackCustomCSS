@@ -1066,7 +1066,8 @@ ts-jumper ts-jumper-container {
 	button.btn.btn_primary.btn_large.im_browser_go.ladda-button,
 	button.btn.dialog_go.c-modal_footer__go--default,
 	button.file_comment_submit_btn.btn.align_self_start.btn_small.ladda-button,
-	button.btn.btn_large.float_right.ladda-button
+	button.btn.btn_large.float_right.ladda-button,
+	a.btn.float_right
 	{
 		background-color: #8f8f8f;
 		color: #000;
