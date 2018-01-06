@@ -1044,7 +1044,7 @@ ts-jumper ts-jumper-container {
 	div.ql-editor.ql-blank,
 	div.lfs_item.lfs_token.selected,
 	input.lfs_input {
-		background-color: #222
+		background-color: #222 !important;
 	}
 	
 	button.p-apps_browser__app_action,
