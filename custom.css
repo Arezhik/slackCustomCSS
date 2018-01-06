@@ -1041,7 +1041,8 @@ ts-jumper ts-jumper-container {
 		background-color: #000 !important;
 	}
 	
-	div.ql-editor.ql-blank {
+	div.ql-editor.ql-blank,
+	div.lfs_item.lfs_token.selected {
 		background-color: #222
 	}
 	
