@@ -1016,7 +1016,9 @@ ts-jumper ts-jumper-container {
 	span.attachment_source_name a,
 	span.inline_img_bytes,
 	span.truncate-left__content,
-	div.text
+	div.text,
+	span.c-member__display-name.c-member__display-name--small, 
+	span.c-usergroup__handle.c-usergroup__handle--small 
 	{
 		color: #8f8f8f !important;
 	}
