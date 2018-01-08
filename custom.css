@@ -1068,6 +1068,12 @@ ts-jumper ts-jumper-container {
 		background-color: #222 !important;
 	}
 
+	footer.unified
+	{
+		background-color: #222 !important;
+		color: #09F !important;
+	}
+
 	ts-mention.ts_tip_texty.mention,
 	a.internal_user_group_link,
 	ts-mention.ts_tip_texty
