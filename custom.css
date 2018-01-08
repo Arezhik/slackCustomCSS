@@ -1058,6 +1058,13 @@ ts-jumper ts-jumper-container {
 	input.lfs_input {
 		background-color: #222 !important;
 	}
+
+	ts-mention.ts_tip_texty.mention
+	{
+		background-color: #222 !important;
+		color: #09F !important;
+	}
+
 	
 	button.p-apps_browser__app_action,
 	button.p-apps_browser__browse_apps,
