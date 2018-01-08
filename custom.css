@@ -1038,23 +1038,24 @@ ts-jumper ts-jumper-container {
 		border-color: #FFF !important;
 	}
 
-	div.ql-editor.ql-blank p 
+	/* div.ql-editor.ql-blank p 
 	{
 	    border-color: #ff0900;
 	    border-width: 1px;
-	}
-	div#search_autocomplete_popover 
+	} */
+
+	/* div#search_autocomplete_popover 
 	{
 	    border-color: #222;
 	    border-width: 1px;
-	}
+	}*/
 
 	div.c-enhanced_text_input,
 	div.lfs_input_container.empty,
 	#im_browser_tokens,
 	div.feature_increase_msg_input_height.ql-container,
-	div.flex_content_scroller,
-	div.channel_header
+	div.flex_content_scroller
+	/*div.channel_header */
 	{
 		background-color: #000 !important;
 	}
@@ -1093,7 +1094,7 @@ ts-jumper ts-jumper-container {
 	form.search_form.no_bottom_margin.active
 	{
 		background-color: #222 !important;
-		color: #8f8f8f !important
+		color: #8f8f8f !important;
 	}
 
 	footer.unified,
@@ -1129,14 +1130,15 @@ ts-jumper ts-jumper-container {
 	
 	button.p-apps_browser__app_action,
 	button.p-apps_browser__browse_apps,
-	div.p-apps_browser__category_header	{
+	div.p-apps_browser__category_header	
+	{
 		background-color: #222;
 		color: #FFF;
 	}
 
-
 	div.channel_browser_divider,
-	h3.p-emoji_picker__heading {
+	h3.p-emoji_picker__heading 
+	{
 		background-color: #222 !important;
 		font-size: 16px !important;
 	}
@@ -1149,6 +1151,7 @@ ts-jumper ts-jumper-container {
 		border-width: 0.5px !important;
 		border-color: #09F !important;
 	}
+
 	button.new_channel.btn.btn_primary.auto_left_margin,
 	button.btn.btn_primary.btn_large.disabled.im_browser_go.ladda-button,
 	button.btn.btn_primary.btn_large.im_browser_go.ladda-button,
@@ -1162,5 +1165,4 @@ ts-jumper ts-jumper-container {
 		border-style: solid !important;
 		border-width: 1px !important;
 		border-color: #fff !important;
-
 	}
