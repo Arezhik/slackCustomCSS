@@ -1063,9 +1063,11 @@ ts-jumper ts-jumper-container {
 	input.lfs_input,
 	form.search_form.no_bottom_margin
 	div.popover_menu.popover_search_menu.unified.showing_query_header.showing_header 
-	div#autocomplete_menu
+	div#autocomplete_menu,
+	header.query_header
 	{
 		background-color: #222 !important;
+		color: #8f8f8f !important
 	}
 
 	footer.unified
