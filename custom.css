@@ -1026,7 +1026,6 @@ ts-jumper ts-jumper-container {
 	}
 	
 	div.ql-editor p,
-	div.ql-editor,
 	div.small.texty_comment_input.comment_input.small_bottom_margin.ql-container
 	{
 		background-color: #000 !important;
@@ -1039,18 +1038,28 @@ ts-jumper ts-jumper-container {
 		border-color: #FFF !important;
 	}
 
+	div.ql-editor.ql-blank p 
+	{
+	    border-color: #ff0900;
+	    border-width: 1px;
+	}
+	div#search_autocomplete_popover 
+	{
+	    border-color: #222;
+	    border-width: 1px;
+	}
+
 	div.c-enhanced_text_input,
 	div.lfs_input_container.empty,
 	#im_browser_tokens,
 	div.feature_increase_msg_input_height.ql-container,
-	div.flex_content_scroller
+	div.flex_content_scroller,
+	div.channel_header
 	{
 		background-color: #000 !important;
 	}
 
 	div.modal-body,
-	div.ql-editor,
-	div.ql-editor p,
 	button.result_item_btn.btn_unstyle.unified_autocomplete_item
 	{
 		background-color: #222 !important;
