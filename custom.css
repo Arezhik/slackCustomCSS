@@ -1047,6 +1047,12 @@ ts-jumper ts-jumper-container {
 		color: #8f8f8f !important;
 	}
 	
+	span.mention_yellow_bg 
+	{
+		background-color: #000 !important;
+		color: #FFF !important;
+	}
+	
 	div.ql-editor.ql-blank,
 	div.lfs_item.lfs_token.selected,
 	input.lfs_input {
