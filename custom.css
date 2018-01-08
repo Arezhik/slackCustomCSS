@@ -1040,7 +1040,7 @@ ts-jumper ts-jumper-container {
 
 	div.ql-editor.ql-blank p 
 	{
-	    border-color: #ff0900;
+	    border-color: #222;
 	    border-width: 1px;
 	}
 
@@ -1072,11 +1072,6 @@ ts-jumper ts-jumper-container {
 		background-color: #000 !important;
 		color: #FFF !important;
 	}
-	
-	form.search_form.no_bottom_margin.active,
-	{
-		background-color: #222 !important;
-	}
 
 	div#chat_input_tab_ui.tab_complete_ui
 	{
@@ -1091,7 +1086,8 @@ ts-jumper ts-jumper-container {
 	div.popover_menu.popover_search_menu.unified.showing_query_header.showing_header,
 	div#autocomplete_menu,
 	header.query_header,
-	form.search_form.no_bottom_margin.active
+	form.search_form.no_bottom_margin.active,
+	div.ql-editor p
 	{
 		background-color: #222 !important;
 		color: #8f8f8f !important;
