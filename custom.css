@@ -1038,17 +1038,17 @@ ts-jumper ts-jumper-container {
 		border-color: #FFF !important;
 	}
 
-	/* div.ql-editor.ql-blank p 
+	div.ql-editor.ql-blank p 
 	{
 	    border-color: #ff0900;
 	    border-width: 1px;
-	} */
+	}
 
-	/* div#search_autocomplete_popover 
+	div#search_autocomplete_popover 
 	{
 	    border-color: #222;
 	    border-width: 1px;
-	}*/
+	}
 
 	div.c-enhanced_text_input,
 	div.lfs_input_container.empty,
