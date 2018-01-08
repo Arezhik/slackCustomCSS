@@ -1063,7 +1063,9 @@ ts-jumper ts-jumper-container {
 		background-color: #000 !important;
 		color: #FFF !important;
 	}
-	form.search_form.no_bottom_margin.active
+	
+	form.search_form.no_bottom_margin.active,
+	div#chat_input_tab_ui.tab_complete_ui
 	{
 		background-color: #222 !important;
 	}
