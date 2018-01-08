@@ -1019,7 +1019,8 @@ ts-jumper ts-jumper-container {
 	div.text,
 	span.c-member__display-name.c-member__display-name--small, 
 	span.c-usergroup__handle.c-usergroup__handle--small,
-	span.no_wrap
+	span.no_wrap,
+	span.broadcast.unify_broadcast
 	{
 		color: #8f8f8f !important;
 	}
