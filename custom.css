@@ -1068,6 +1068,11 @@ ts-jumper ts-jumper-container {
 		color: #09F !important;
 	}
 
+	div.convo_flexpane_divider
+	{
+		border-color: #09F !important;
+	}
+
 	
 	button.p-apps_browser__app_action,
 	button.p-apps_browser__browse_apps,
