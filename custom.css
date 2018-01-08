@@ -1041,7 +1041,9 @@ ts-jumper ts-jumper-container {
 		background-color: #000 !important;
 	}
 
-	div.modal-body 
+	div.modal-body,
+	div.ql-editor,
+	div.ql-editor p
 	{
 		background-color: #222 !important;
 		color: #8f8f8f !important;
