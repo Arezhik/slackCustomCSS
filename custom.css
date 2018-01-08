@@ -1018,7 +1018,8 @@ ts-jumper ts-jumper-container {
 	span.truncate-left__content,
 	div.text,
 	span.c-member__display-name.c-member__display-name--small, 
-	span.c-usergroup__handle.c-usergroup__handle--small 
+	span.c-usergroup__handle.c-usergroup__handle--small,
+	span.no_wrap
 	{
 		color: #8f8f8f !important;
 	}
