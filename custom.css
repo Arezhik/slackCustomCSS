@@ -1044,7 +1044,8 @@ ts-jumper ts-jumper-container {
 
 	div.modal-body,
 	div.ql-editor,
-	div.ql-editor p
+	div.ql-editor p,
+	button.result_item_btn.btn_unstyle.unified_autocomplete_item
 	{
 		background-color: #222 !important;
 		color: #8f8f8f !important;
@@ -1065,7 +1066,8 @@ ts-jumper ts-jumper-container {
 	}
 
 	ts-mention.ts_tip_texty.mention,
-	a.internal_user_group_link
+	a.internal_user_group_link,
+	ts-mention.ts_tip_texty
 	{
 		background-color: #444 !important;
 		color: #09F !important;
