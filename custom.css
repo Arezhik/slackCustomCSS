@@ -1064,7 +1064,8 @@ ts-jumper ts-jumper-container {
 		background-color: #222 !important;
 	}
 
-	ts-mention.ts_tip_texty.mention
+	ts-mention.ts_tip_texty.mention,
+	a.internal_user_group_link
 	{
 		background-color: #444 !important;
 		color: #09F !important;
