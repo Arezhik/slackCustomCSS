@@ -1045,7 +1045,7 @@ ts-jumper ts-jumper-container {
 	div.ql-editor,
 	div.ql-editor p
 	{
-		background-color: #222 !important;
+		background-color: #000 !important;
 		color: #8f8f8f !important;
 	}
 	
