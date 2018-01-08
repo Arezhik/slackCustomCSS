@@ -1058,7 +1058,11 @@ ts-jumper ts-jumper-container {
 		background-color: #000 !important;
 		color: #FFF !important;
 	}
-	
+	form.search_form.no_bottom_margin.active
+	{
+		background-color: #222 !important;
+	}
+
 	div.ql-editor.ql-blank,
 	div.lfs_item.lfs_token.selected,
 	input.lfs_input,
@@ -1072,7 +1076,8 @@ ts-jumper ts-jumper-container {
 		color: #8f8f8f !important
 	}
 
-	footer.unified
+	footer.unified,
+	div#chat_input_tab_ui_header
 	{
 		background-color: #222 !important;
 		color: #09F !important;
