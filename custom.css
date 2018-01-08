@@ -1106,6 +1106,14 @@ ts-jumper ts-jumper-container {
 		font-size: 16px !important;
 	}
 
+	span.token.member_token
+	{
+		color: #8f8f8f !important;
+		background-color: #222 !important;
+		border-style: solid !important;
+		border-width: 0.5px !important;
+		border-color: #09F !important;
+	}
 	button.new_channel.btn.btn_primary.auto_left_margin,
 	button.btn.btn_primary.btn_large.disabled.im_browser_go.ladda-button,
 	button.btn.btn_primary.btn_large.im_browser_go.ladda-button,
