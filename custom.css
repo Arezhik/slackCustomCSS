@@ -1036,7 +1036,8 @@ ts-jumper ts-jumper-container {
 	div.lfs_input_container.empty,
 	#im_browser_tokens,
 	div.feature_increase_msg_input_height.ql-container,
-	li.tab_complete_ui_item
+	li.tab_complete_ui_item,
+	div.flex_content_scroller
 	{
 		background-color: #000 !important;
 	}
