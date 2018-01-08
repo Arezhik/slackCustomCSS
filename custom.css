@@ -1055,7 +1055,6 @@ ts-jumper ts-jumper-container {
 	#im_browser_tokens,
 	div.feature_increase_msg_input_height.ql-container,
 	div.flex_content_scroller
-	/*div.channel_header */
 	{
 		background-color: #000 !important;
 	}
@@ -1083,14 +1082,19 @@ ts-jumper ts-jumper-container {
 	div.lfs_item.lfs_token.selected,
 	input.lfs_input,
 	form.search_form.no_bottom_margin,
-	div.popover_menu.popover_search_menu.unified.showing_query_header.showing_header,
-	div#autocomplete_menu,
-	header.query_header,
 	form.search_form.no_bottom_margin.active,
 	div.ql-editor p
 	{
 		background-color: #222 !important;
 		color: #8f8f8f !important;
+	}
+
+	div.popover_menu.popover_search_menu.unified.showing_query_header.showing_header
+	{
+	    background-color: #222;
+	    border: solid;
+	    border-width: 1px;
+	    border-color: #222;
 	}
 
 	footer.unified,
@@ -1105,7 +1109,10 @@ ts-jumper ts-jumper-container {
 		background-color: #09F !important;
 	}
 
-	div.tab_complete_ui_item
+	div.tab_complete_ui_item,
+	header.query_header,
+	div#autocomplete_menu,
+	div.channel_header
 	{
 		background-color: #222 !important;
 	}
