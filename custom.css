@@ -1064,9 +1064,14 @@ ts-jumper ts-jumper-container {
 	}
 	
 	form.search_form.no_bottom_margin.active,
+	{
+		background-color: #222 !important;
+	}
+
 	div#chat_input_tab_ui.tab_complete_ui
 	{
 		background-color: #222 !important;
+		border-width: 2px !important;
 	}
 
 	div.ql-editor.ql-blank,
