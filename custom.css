@@ -1043,7 +1043,6 @@ ts-jumper ts-jumper-container {
 	div.lfs_input_container.empty,
 	#im_browser_tokens,
 	div.feature_increase_msg_input_height.ql-container,
-	li.tab_complete_ui_item,
 	div.flex_content_scroller
 	{
 		background-color: #000 !important;
@@ -1094,6 +1093,11 @@ ts-jumper ts-jumper-container {
 	div.tab_complete_ui_item.active
 	{
 		background-color: #09F !important;
+	}
+
+	div.tab_complete_ui_item
+	{
+		background-color: #222 !important;
 	}
 
 	ts-mention.ts_tip_texty.mention,
