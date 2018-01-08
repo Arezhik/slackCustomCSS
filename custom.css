@@ -1014,7 +1014,8 @@ ts-jumper ts-jumper-container {
 	a.member_preview_link,
 	span.attachment_source_name a,
 	span.inline_img_bytes,
-	span.truncate-left__content
+	span.truncate-left__content,
+	div.text
 	{
 		color: #8f8f8f !important;
 	}
