@@ -1090,6 +1090,11 @@ ts-jumper ts-jumper-container {
 		color: #09F !important;
 	}
 
+	div.tab_complete_ui_item.active
+	{
+		background-color: #09F !important;
+	}
+
 	ts-mention.ts_tip_texty.mention,
 	a.internal_user_group_link,
 	ts-mention.ts_tip_texty
