@@ -85,6 +85,7 @@ __TODO-highlight-indicator {
    opacity: 1;
 }
 
+#threads_msgs_scroller_div::-wenkit-scollbar-track, .message_pane_scroller,
 #msgs_scroller_div::-webkit-scrollbar-track, .client_container,
 #chat_input_tab_ui_scroller::-webkit-scrollbar-track, .tab_complete_ui_scroller,
 #search_terms, #footer, ts-message, .channel_header, ts-jumper ts-jumper-container,
