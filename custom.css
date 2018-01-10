@@ -1189,15 +1189,15 @@ div.c-message_list__day_divider__label__pill {
 }
 
 div.c-scrollbar__hider {
-    background-color: #000 ;
+    background-color: #000 !important;
 }
 
 div.c-scrollbar__bar {
-    border: solid;
-    border-width: 1px;
-    border-color: #09F;
-    color: transparent;
-    background-color: transparent;
+    border: solid !important;
+    border-width: 1px !important;
+    border-color: #09F !important;
+    color: transparent !important;
+    background-color: transparent !important;
 }
 
 	button.new_channel.btn.btn_primary.auto_left_margin,
