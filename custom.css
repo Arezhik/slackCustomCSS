@@ -1134,7 +1134,7 @@ ts-jumper ts-jumper-container {
 		color: #09F !important;
 	}
 
-	div.convo_flexpane_divider
+	div.convo_flexpane_divider,
 	{
 		border-color: #09F !important;
 	}
@@ -1177,7 +1177,9 @@ ts-jumper ts-jumper-container {
 		border-width: 1 px !important;
 		
 	}
-hr.c-message_list__day_divider__line {
+hr.c-message_list__day_divider__line,
+div.c-scrollbar__hider::before
+{
     border-color: #09F;
 }
 
