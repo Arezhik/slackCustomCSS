@@ -1021,7 +1021,11 @@ ts-jumper ts-jumper-container {
 	span.c-member__display-name.c-member__display-name--small, 
 	span.c-usergroup__handle.c-usergroup__handle--small,
 	span.no_wrap,
-	span.broadcast.unify_broadcast
+	span.broadcast.unify_broadcast,
+	span.c-message__body,
+	a.c-message__sender_link,
+	span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
+	div.p-message_pane__foreword__description span
 	{
 		color: #8f8f8f !important;
 	}
@@ -1154,6 +1158,20 @@ ts-jumper ts-jumper-container {
 		border-style: solid !important;
 		border-width: 0.5px !important;
 		border-color: #09F !important;
+	}
+
+	div.c-message.c-message--light.c-message--hover
+	{
+		color: #fff !important;
+		background-color: #222 !important;
+	}
+	
+	pre.special_formatting{
+		background-color: #222 !important;
+		color: #8f8f8f !important;
+		border: solid;
+		border-width: 1 px !important;
+		
 	}
 
 	button.new_channel.btn.btn_primary.auto_left_margin,
