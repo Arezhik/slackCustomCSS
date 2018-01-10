@@ -1120,7 +1120,8 @@ ts-jumper ts-jumper-container {
 	div.tab_complete_ui_item,
 	header.query_header,
 	div#autocomplete_menu,
-	div.channel_header
+	div.channel_header,
+	div.channel_header_info
 	{
 		background-color: #222 !important;
 	}
@@ -1188,7 +1189,8 @@ div.c-message_list__day_divider__label__pill {
     border-width: 1px;
 }
 
-div.c-scrollbar__hider {
+div.c-scrollbar__hider,
+div.c-scrollbar__hider::before{
     background-color: #000 !important;
 }
 
