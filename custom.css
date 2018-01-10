@@ -1121,7 +1121,7 @@ ts-jumper ts-jumper-container {
 	header.query_header,
 	div#autocomplete_menu,
 	div.channel_header,
-	div.channel_header_info
+	div#channel_header_info.channel_header_info
 	{
 		background-color: #222 !important;
 	}
