@@ -1176,6 +1176,29 @@ ts-jumper ts-jumper-container {
 		border-width: 1 px !important;
 		
 	}
+hr.c-message_list__day_divider__line {
+    border-color: #09F;
+}
+
+div.c-message_list__day_divider__label__pill {
+    background-color: #000;
+    color: #8f8f8f;
+    border: solid;
+    border-color: #09F;
+    border-width: 1px;
+}
+
+div.c-scrollbar__hider {
+    background-color: #000 ;
+}
+
+div.c-scrollbar__bar {
+    border: solid;
+    border-width: 1px;
+    border-color: #09F;
+    color: transparent;
+    background-color: transparent;
+}
 
 	button.new_channel.btn.btn_primary.auto_left_margin,
 	button.btn.btn_primary.btn_large.disabled.im_browser_go.ladda-button,
