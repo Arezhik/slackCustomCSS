@@ -1175,10 +1175,9 @@ ts-jumper ts-jumper-container {
 		color: #8f8f8f !important;
 		border: solid;
 		border-width: 1 px !important;
-		
 	}
+
 hr.c-message_list__day_divider__line,
-div.c-scrollbar__hider::before
 {
     border-color: #09F;
 }
@@ -1192,9 +1191,14 @@ div.c-message_list__day_divider__label__pill {
 }
 
 div.c-scrollbar__hider,
-div.c-scrollbar__hider::before{
+{
     background-color: #000 !important;
 }
+
+div.c-scrollbar__hider::before 
+{
+	background-color: #000 !important;
+	border-bottom: 1px solid #09F !important;	
 
 div.c-scrollbar__bar {
     border: solid !important;
