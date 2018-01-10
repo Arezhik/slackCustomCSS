@@ -1025,7 +1025,8 @@ ts-jumper ts-jumper-container {
 	span.c-message__body,
 	a.c-message__sender_link,
 	span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
-	div.p-message_pane__foreword__description span
+	div.p-message_pane__foreword__description span,
+	span.c-message_attachment__text span
 	{
 		color: #8f8f8f !important;
 	}
@@ -1065,7 +1066,9 @@ ts-jumper ts-jumper-container {
 	}
 
 	div.modal-body,
-	button.result_item_btn.btn_unstyle.unified_autocomplete_item
+	button.result_item_btn.btn_unstyle.unified_autocomplete_item,
+	div.ql-editor,
+	div.ql-editor.ql-blank
 	{
 		background-color: #222 !important;
 		color: #8f8f8f !important;
