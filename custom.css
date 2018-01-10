@@ -1177,7 +1177,7 @@ ts-jumper ts-jumper-container {
 		border-width: 1 px !important;
 	}
 
-hr.c-message_list__day_divider__line,
+hr.c-message_list__day_divider__line
 {
     border-color: #09F;
 }
