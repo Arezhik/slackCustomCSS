@@ -1222,3 +1222,8 @@ div.c-scrollbar__bar {
 		border-width: 1px !important;
 		border-color: #fff !important;
 	}
+
+div.c-file_container.c-file_container--gradient.c-file_container--full_width::after 
+{
+    background: linear-gradient(180deg, rgba(255,255,255,0), #09F);
+}
