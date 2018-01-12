@@ -1207,7 +1207,7 @@ div.c-scrollbar__bar {
     color: transparent !important;
     background-color: transparent !important;
 }
-	div.c-file_container--gradient.c-file_container--full_width::after 
+	div.c-file_container.c-file_container--gradient.c-file_container--full_width::after
 {
     background: linear-gradient(180deg, rgba(255,255,255,0), #09F) !important;
 }
