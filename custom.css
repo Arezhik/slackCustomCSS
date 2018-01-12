@@ -1209,7 +1209,7 @@ div.c-scrollbar__bar {
 }
 	div.c-file_container--gradient.c-file_container--full_width::after 
 {
-    background: linear-gradient(180deg, rgba(255,255,255,0), #09F);
+    background: linear-gradient(180deg, rgba(255,255,255,0), #09F) !important;
 }
 
 	button.new_channel.btn.btn_primary.auto_left_margin,
