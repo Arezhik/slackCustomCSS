@@ -1124,7 +1124,6 @@ header.query_header,
 div#autocomplete_menu,
 div.channel_header,
 div#channel_header_info.channel_header_info,
-div.c-scrollbar__hider::before,
 button.c-message_actions__button,
 span.no_jumbomoji,
 ts-message.message.feature_fix_files.first.message_container_item,
@@ -1222,7 +1221,7 @@ margin-right: -3.5px;
 
 div.c-scrollbar__hider::before 
 {
-	background-color: #222 !important;
+	background-color: #000 !important;
 	border-bottom: 1px solid #09F !important;	
 }
 
