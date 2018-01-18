@@ -607,6 +607,7 @@ ts-mention.ts_tip:hover
 .p-emoji_picker__group_tab {
    border: 1px solid transparent;
    border-bottom-width: 2px;
+   width: 30px;
 }
 
 .menu .p-emoji_picker__group_tab--active {
