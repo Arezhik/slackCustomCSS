@@ -1129,7 +1129,6 @@ button.c-message_actions__button,
 span.no_jumbomoji,
 ts-message.message.feature_fix_files.first.message_container_item,
 div#client_body::before,
-div.c-scrollbar__hider::before
 {
   background-color: #222 !important;
 }
@@ -1209,7 +1208,6 @@ div.c-message_list__day_divider__label__pill {
   border-width: 1px;
 }
 
-div.c-scrollbar__hider,
 div.unread_group_header.display_flex.justify_content_between,
 div.day_container
 {
@@ -1224,7 +1222,7 @@ margin-right: -3.5px;
 
 div.c-scrollbar__hider::before 
 {
-	background-color: #000 !important;
+	background-color: #222 !important;
 	border-bottom: 1px solid #09F !important;	
 }
 
