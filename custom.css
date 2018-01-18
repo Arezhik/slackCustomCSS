@@ -817,7 +817,7 @@ ts-thread .view_all_replies_container:hover {
 }
 .unread_group_header button {
    color: var(--text-special);
-},
+}
 
 
 /* scroller for threads & unreads */
