@@ -1027,7 +1027,9 @@ span.c-message__body,
 a.c-message__sender_link,
 span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
 div.p-message_pane__foreword__description span,
-span.c-message_attachment__text span
+span.c-message_attachment__text span,
+div.p-message_pane__foreword__description,
+span.c-message_attachment__pretext span
 {
   color: #8f8f8f !important;
 }
@@ -1064,7 +1066,8 @@ div.flex_content_scroller
 div.modal-body,
 button.result_item_btn.btn_unstyle.unified_autocomplete_item,
 div.ql-editor,
-div.ql-editor.ql-blank
+div.ql-editor.ql-blank,
+span.c-reaction__count
 {
   background-color: #222 !important;
   color: #8f8f8f !important;
@@ -1103,7 +1106,9 @@ div.popover_menu.popover_search_menu.unified.showing_query_header.showing_header
 }
 
 footer.unified,
-div#chat_input_tab_ui_header
+div#chat_input_tab_ui_header,
+button.c-reaction,
+button.c-reaction_add
 {
   background-color: #222 !important;
   color: #09F !important;
@@ -1121,7 +1126,10 @@ div.channel_header,
 div#channel_header_info.channel_header_info,
 div.c-scrollbar__hider::before,
 button.c-message_actions__button,
-span.no_jumbomoji
+span.no_jumbomoji,
+ts-message.message.feature_fix_files.first.message_container_item,
+div#client_body::before,
+div.c-scrollbar__hider::before
 {
   background-color: #222 !important;
 }
@@ -1135,13 +1143,16 @@ div.c-message_actions__container.c-message__actions{
 
 ts-mention.ts_tip_texty.mention,
 a.internal_user_group_link,
-ts-mention.ts_tip_texty
+ts-mention.ts_tip_texty,
+a.c-mrkdwn__member.c-mrkdwn__member--link,
+button.c-deprecated_button.c-deprecated_button--link.c-mrkdwn__subteam.c-mrkdwn__subteam--link
 {
   background-color: #444 !important;
   color: #09F !important;
 }
 
 div.convo_flexpane_divider,
+div.day_divider_line
 {
   border-color: #09F !important;
 }
@@ -1198,7 +1209,9 @@ div.c-message_list__day_divider__label__pill {
   border-width: 1px;
 }
 
-div.c-scrollbar__hider
+div.c-scrollbar__hider,
+div.unread_group_header.display_flex.justify_content_between,
+div.day_container
 {
   background-color: #000 !important;
 }
