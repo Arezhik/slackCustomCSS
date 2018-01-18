@@ -1120,7 +1120,8 @@ div#autocomplete_menu,
 div.channel_header,
 div#channel_header_info.channel_header_info,
 div.c-scrollbar__hider::before,
-button.c-message_actions__button
+button.c-message_actions__button,
+span.no_jumbomoji
 {
   background-color: #222 !important;
 }
@@ -1244,6 +1245,5 @@ a.btn.float_right
 
 span#edit_topic_inner::before{
   border: 2px solid #09f !important;
-  background-color: #222 !important;
 }
 	
