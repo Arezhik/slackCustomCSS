@@ -1125,6 +1125,12 @@ button.c-message_actions__button{
   background-color: #222 !important;
 }
 
+div.c-message_actions__container{
+  background-color: #222;
+  border-color: #09f;
+  border-width: 1px;
+}
+
 ts-mention.ts_tip_texty.mention,
 a.internal_user_group_link,
 ts-mention.ts_tip_texty
