@@ -1243,7 +1243,7 @@ a.btn.float_right
 }
 
 span#edit_topic_inner::before{
-  border: 2px solid #09f;
-  background-color: #222;
+  border: 2px solid #09f !important;
+  background-color: #222 !important;
 }
 	
