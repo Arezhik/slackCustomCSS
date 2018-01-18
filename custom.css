@@ -1246,4 +1246,16 @@ a.btn.float_right
 span#edit_topic_inner::before{
   border: 2px solid #09f !important;
 }
+
+/*New Messages Divider*/
+hr.c-message_list__unread_divider__separator {
+  border-width: 2px;
+}
+
+span.c-message_list__unread_divider__label {
+  background-color: #444;
+  border-style: solid;
+  border-color: rgba(255, 0, 0, .2);
+  border-width: 2px;
+}
 	
