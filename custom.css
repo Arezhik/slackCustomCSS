@@ -1087,7 +1087,8 @@ div.lfs_item.lfs_token.selected,
 input.lfs_input,
 form.search_form.no_bottom_margin,
 form.search_form.no_bottom_margin.active,
-div.ql-editor p
+div.ql-editor p,
+div.p-archives_banner
 {
   background-color: #222 !important;
   color: #8f8f8f !important;
