@@ -1199,6 +1199,7 @@ div.c-message_list__day_divider__label__pill {
 }
 
 div.c-scrollbar__hider,
+div.c-scrollbar__track
 {
   background-color: #000 !important;
 }
