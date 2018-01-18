@@ -1116,7 +1116,8 @@ div.tab_complete_ui_item,
 header.query_header,
 div#autocomplete_menu,
 div.channel_header,
-div#channel_header_info.channel_header_info
+div#channel_header_info.channel_header_info,
+button.c-message_actions__button
 {
   background-color: #222 !important;
 }
