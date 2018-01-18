@@ -1125,7 +1125,8 @@ button.c-message_actions__button{
   background-color: #222 !important;
 }
 
-div.c-message_actions__container{
+div.c-message_actions__container,
+div.c-message_actions__container.c-message__actions{
   background-color: #222;
   border-color: #09f;
   border-width: 1px;
