@@ -1242,8 +1242,8 @@ a.btn.float_right
   border-color: #fff !important;
 }
 
-span.no_jumbomoji{
-  border: 1px solid #09f;
+span#edit_topic_inner::before{
+  border: 2px solid #09f;
   background-color: #222;
 }
 	
