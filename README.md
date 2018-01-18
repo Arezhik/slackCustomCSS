@@ -75,7 +75,7 @@ Notice that you can edit any of the theme colors using the custom CSS (for
 the already-custom theme.) Also, you can put any CSS URL you want here,
 so you don't necessarily need to create an entire fork to change some small styles.
 
-That's it! Restart Slack and see how well it works.
+That's it! Restart Slack or press <ctrl + f> to refresh the client.
 
 NB: You'll have to do this every time Slack updates.
 
