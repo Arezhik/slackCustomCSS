@@ -1220,7 +1220,8 @@ div.c-scrollbar__bar
 }
 
 div.p-degraded_list__loading{
-  background-color: transparent !important;
+  background-color: #222 !important;
+  border-bottom: #09F !important;
 }
 
 div.c-file_container.c-file_container--gradient.c-file_container--full_width::after
