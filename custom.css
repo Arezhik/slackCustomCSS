@@ -1196,14 +1196,14 @@ pre.special_formatting
 
 hr.c-message_list__day_divider__line
 {
-  border-color: var(--primary);
+  border-color: var(--primary) !important;
 }
 
 div.c-message_list__day_divider__label__pill {
   background-color: #000;
   color: #8f8f8f;
   border: solid;
-  border-color: var(--primary);
+  border-color: var(--primary) !important;
   border-width: 1px;
 }
 
