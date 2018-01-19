@@ -1222,7 +1222,7 @@ margin-right: -3.5px;
 div.c-scrollbar__hider::before 
 {
 	background-color: #000 !important;
-	border-bottom: 1px solid #09F !important;	
+	border-bottom: 1px solid var(--primary) !important;	
 }
 
 div.c-scrollbar__bar 
