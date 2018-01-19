@@ -1196,7 +1196,7 @@ pre.special_formatting
 
 hr.c-message_list__day_divider__line
 {
-  border-color: #09F;
+  border-color: var(--primary);
 }
 
 div.c-message_list__day_divider__label__pill {
