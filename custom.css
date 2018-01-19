@@ -1152,6 +1152,11 @@ button.c-deprecated_button.c-deprecated_button--link.c-mrkdwn__subteam.c-mrkdwn_
   color: #09F !important;
 }
 
+.c-message_actions__button:hover 
+{
+	color: var(--primary) !important;
+}
+
 div.convo_flexpane_divider,
 div.day_divider_line
 {
