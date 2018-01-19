@@ -1135,7 +1135,7 @@ div#client_body::before,
 div.c-message_actions__container,
 div.c-message_actions__container.c-message__actions{
   background-color: #222;
-  border-color: #09f;
+  border-color: var(--primary) !important;
   border-width: 1px;
 }
 
