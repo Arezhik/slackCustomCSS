@@ -1225,14 +1225,14 @@ div.c-scrollbar__hider::before
 	border-bottom: 1px solid var(--primary) !important;	
 }
 
-div.c-scrollbar__bar 
+/*div.c-scrollbar__bar 
 {
   border: solid !important;
   border-width: 1px !important;
   border-color: #09F !important;
   color: transparent !important;
   background-color: transparent !important;
-}
+}*/
 
 div.p-degraded_list__loading{
   background-color: #222 !important;
