@@ -1203,7 +1203,7 @@ div.c-message_list__day_divider__label__pill {
   background-color: #000;
   color: #8f8f8f;
   border: solid;
-  border-color: #09F;
+  border-color: var(--primary);
   border-width: 1px;
 }
 
