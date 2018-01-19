@@ -1271,6 +1271,11 @@ span#edit_topic_inner::before{
   border: 2px solid #09f !important;
 }
 
+a.c-mrkdwn__member.c-mrkdwn__member--link
+{
+	color: var(--primary) !important;
+}
+
 /*New Messages Divider*/
 hr.c-message_list__unread_divider__separator {
   border-width: 2px;
