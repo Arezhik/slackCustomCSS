@@ -187,7 +187,10 @@ li.active[class] span,
 }
 
 /* new scrollbar */
-.p-channel_sidebar div.c-custom_scrollbar__thumb_vertical, .p-channel_sidebar div.c-scrollbar__bar {
+.p-channel_sidebar div.c-custom_scrollbar__thumb_vertical,
+.p-channel_sidebar div.c-scrollbar__bar,
+div.c-scrollbar__bar
+{
   background: var(--background-elevated);
   border: 1px solid var(--scrollbar-border);
 }
