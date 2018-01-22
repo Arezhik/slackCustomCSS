@@ -1032,7 +1032,8 @@ span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--ca
 div.p-message_pane__foreword__description span,
 span.c-message_attachment__text span,
 div.p-message_pane__foreword__description,
-span.c-message_attachment__pretext span
+span.c-message_attachment__pretext span,
+span.ts_toggle_on_label
 {
   color: #8f8f8f !important;
 }
@@ -1045,7 +1046,8 @@ div.ql-editor.ql-blank,
 div.ql-editor.ql-blank p,
 div.ql-editor p,
 form.search_form.no_bottom_margin,
-form.search_form.no_bottom_margin.active{
+form.search_form.no_bottom_margin.active,
+input.lowercase.title_input.large_left_padding{
   color: #8f8f8f !important;
   background-color: #000 !important;
 }
@@ -1155,7 +1157,7 @@ a.c-mrkdwn__member.c-mrkdwn__member--link,
 button.c-deprecated_button.c-deprecated_button--link.c-mrkdwn__subteam.c-mrkdwn__subteam--link
 {
   background-color: #444 !important;
-  color: #09F !important;
+  color: var(--primary) !important;
 }
 
 .c-message_actions__button:hover 
@@ -1166,7 +1168,7 @@ button.c-deprecated_button.c-deprecated_button--link.c-mrkdwn__subteam.c-mrkdwn_
 div.convo_flexpane_divider,
 div.day_divider_line
 {
-  border-color: #09F !important;
+  border-color: var(--primary) !important;
 }
 
 
@@ -1191,7 +1193,7 @@ span.token.member_token
   background-color: #222 !important;
   border-style: solid !important;
   border-width: 0.5px !important;
-  border-color: #09F !important;
+  border-color: var(--primary) !important;
 }
 
 div.c-message.c-message--light.c-message--hover
@@ -1250,12 +1252,12 @@ div.c-scrollbar__bar
 
 div.p-degraded_list__loading{
   background-color: #222 !important;
-  border-bottom: 1px solid #09F  !important;
+  border-bottom: 1px solid var(--primary)  !important;
 }
 
 div.c-file_container.c-file_container--gradient.c-file_container--full_width::after
 {
-  background: linear-gradient(180deg, rgba(255,255,255,0), #09F) !important;
+  background: linear-gradient(180deg, rgba(255,255,255,0), var(--primary)) !important;
 }
 
 button.new_channel.btn.btn_primary.auto_left_margin,
@@ -1274,7 +1276,7 @@ a.btn.float_right
 }
 
 span#edit_topic_inner::before{
-  border: 2px solid #09f !important;
+  border: 2px solid var(--primary) !important;
 }
 
 a.c-mrkdwn__member.c-mrkdwn__member--link
