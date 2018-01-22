@@ -221,7 +221,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
   color: var(--text) !important;
 }
 
-.ql-placeholder:::-webkit-input-placeholder {
+.ql-placeholder::-webkit-input-placeholder {
   color: var(--text) !important;
 }
 #msg_input, #primary_file_button {
