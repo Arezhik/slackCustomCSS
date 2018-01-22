@@ -1147,6 +1147,7 @@ b.mention,
 button.c-deprecated_button.c-deprecated_button--link.c-mrkdwn__subteam.c-mrkdwn__subteam--link
 {
   color: var(--primary) !important;
+  background-color: transparent !important;
 }
 
 .c-message_actions__button:hover 
