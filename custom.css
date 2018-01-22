@@ -187,7 +187,10 @@ li.active[class] span,
 }
 
 /* new scrollbar */
-.p-channel_sidebar div.c-custom_scrollbar__thumb_vertical, .p-channel_sidebar div.c-scrollbar__bar {
+.p-channel_sidebar div.c-custom_scrollbar__thumb_vertical,
+.p-channel_sidebar div.c-scrollbar__bar,
+div.c-scrollbar__bar
+{
   background: var(--background-elevated);
   border: 1px solid var(--scrollbar-border);
 }
@@ -1142,7 +1145,7 @@ div#client_body::before,
 div.c-message_actions__container,
 div.c-message_actions__container.c-message__actions{
   background-color: #222;
-  border-color: #09f;
+  border-color: var(--primary) !important;
   border-width: 1px;
 }
 
@@ -1154,6 +1157,11 @@ button.c-deprecated_button.c-deprecated_button--link.c-mrkdwn__subteam.c-mrkdwn_
 {
   background-color: #444 !important;
   color: #09F !important;
+}
+
+.c-message_actions__button:hover 
+{
+	color: var(--primary) !important;
 }
 
 div.convo_flexpane_divider,
@@ -1203,14 +1211,14 @@ pre.special_formatting
 
 hr.c-message_list__day_divider__line
 {
-  border-color: #09F;
+  border-color: var(--primary) !important;
 }
 
 div.c-message_list__day_divider__label__pill {
   background-color: #000;
   color: #8f8f8f;
   border: solid;
-  border-color: #09F;
+  border-color: var(--primary) !important;
   border-width: 1px;
 }
 
@@ -1229,14 +1237,14 @@ margin-right: -3.5px;
 div.c-scrollbar__hider::before 
 {
 	background-color: #000 !important;
-	border-bottom: 1px solid #09F !important;	
+	border-bottom: 1px solid var(--primary) !important;	
 }
 
 div.c-scrollbar__bar 
 {
   border: solid !important;
   border-width: 1px !important;
-  border-color: #09F !important;
+  border-color: var(--primary) !important;
   color: transparent !important;
   background-color: transparent !important;
 }
@@ -1268,6 +1276,11 @@ a.btn.float_right
 
 span#edit_topic_inner::before{
   border: 2px solid #09f !important;
+}
+
+a.c-mrkdwn__member.c-mrkdwn__member--link
+{
+	color: var(--primary) !important;
 }
 
 /*New Messages Divider*/
