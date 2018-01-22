@@ -1143,6 +1143,8 @@ ts-mention.ts_tip_texty.mention,
 a.internal_user_group_link,
 ts-mention.ts_tip_texty,
 a.c-mrkdwn__member.c-mrkdwn__member--link,
+b.mention,
+a.internal_member_link.ts_tip.ts_tip_top.ts_tip_float.ts_tip_member.mention.ts_tip_hidden,
 button.c-deprecated_button.c-deprecated_button--link.c-mrkdwn__subteam.c-mrkdwn__subteam--link
 {
   color: var(--primary) !important;
