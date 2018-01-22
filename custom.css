@@ -1033,7 +1033,7 @@ div.p-message_pane__foreword__description,
 span.c-message_attachment__pretext span,
 span.ts_toggle_on_label
 {
-  color: #8f8f8f !important;
+  color: var(--text) !important;
 }
 
 input.lfs_input,
