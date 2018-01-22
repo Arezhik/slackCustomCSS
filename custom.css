@@ -1034,7 +1034,19 @@ span.c-message_attachment__pretext span
   color: #8f8f8f !important;
 }
 
+input.lfs_input,
+div.lfs_input_container,
+div.ql-editor,
+div.ql-editor.ql-blank.focus-ring p,
+div.ql-editor.ql-blank,
+div.ql-editor.ql-blank p,
 div.ql-editor p,
+form.search_form.no_bottom_margin,
+form.search_form.no_bottom_margin.active{
+  color: #8f8f8f !important;
+  background-color: #000 !important;
+}
+
 div.small.texty_comment_input.comment_input.small_bottom_margin.ql-container
 {
   background-color: #000 !important;
@@ -1047,7 +1059,6 @@ button.btn.btn_large.new_channel_go.ladda-button.float_right {
   border-color: #FFF !important;
 }
 
-div.ql-editor.ql-blank p,
 div#search_autocomplete_popover 
 {
   border-color: #222;
@@ -1058,15 +1069,13 @@ div.c-enhanced_text_input,
 div.lfs_input_container.empty,
 #im_browser_tokens,
 div.feature_increase_msg_input_height.ql-container,
-div.flex_content_scroller
+div.flex_content_scroller,
 {
   background-color: #000 !important;
 }
 
 div.modal-body,
 button.result_item_btn.btn_unstyle.unified_autocomplete_item,
-div.ql-editor,
-div.ql-editor.ql-blank,
 span.c-reaction__count
 {
   background-color: #222 !important;
@@ -1085,12 +1094,10 @@ div#chat_input_tab_ui.tab_complete_ui
   border-width: 2px !important;
 }
 
-div.ql-editor.ql-blank,
 div.lfs_item.lfs_token.selected,
 input.lfs_input,
 form.search_form.no_bottom_margin,
 form.search_form.no_bottom_margin.active,
-div.ql-editor p,
 div.p-archives_banner
 {
   background-color: #222 !important;
