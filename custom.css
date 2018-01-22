@@ -1127,7 +1127,7 @@ button.c-reaction_add
 
 div.tab_complete_ui_item.active
 {
-  background-color: #09F !important;
+  background-color: var(--primary) !important;
 }
 
 div.tab_complete_ui_item,
