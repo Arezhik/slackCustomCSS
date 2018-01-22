@@ -1100,8 +1100,6 @@ div#chat_input_tab_ui.tab_complete_ui
 }
 
 div.lfs_item.lfs_token.selected,
-form.search_form.no_bottom_margin,
-form.search_form.no_bottom_margin.active,
 div.p-archives_banner
 {
   background-color: #222 !important;
