@@ -1048,7 +1048,7 @@ div.ql-editor p,
 form.search_form.no_bottom_margin,
 form.search_form.no_bottom_margin.active,
 input.lowercase.title_input.large_left_padding{
-  color: var(--text) !important;
+  color: #8f8f8f !important;
   background-color: #000 !important;
 }
 
