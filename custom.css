@@ -1145,7 +1145,6 @@ ts-mention.ts_tip_texty,
 a.c-mrkdwn__member.c-mrkdwn__member--link,
 button.c-deprecated_button.c-deprecated_button--link.c-mrkdwn__subteam.c-mrkdwn__subteam--link
 {
-  background-color: #444 !important;
   color: var(--primary) !important;
 }
 
