@@ -1413,7 +1413,7 @@ div.c-scrollbar__track {
 }
 
 div.c-scrollbar__hider::before {
-    background-color: #000 !important;
+    background-color: #222 !important;
     border-bottom: 1px solid var(--primary) !important;
 }
 
