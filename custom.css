@@ -1324,6 +1324,7 @@ div.channel_header,
 div#channel_header_info.channel_header_info,
 button.c-message_actions__button,
 span.no_jumbomoji,
+span#channel_topic_text,
 ts-message.message.feature_fix_files.first.message_container_item,
 div#client_body::before,
 div.CodeMirror-code div {
