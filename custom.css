@@ -1210,15 +1210,11 @@ div.current_status_cover_content,
 span.timezone,
 div.p-apps_browser__app_name strong,
 span.channel_browser_channel_name.bold,
-ts-icon.channel_browser_type_icon.greigh.ts_icon_channel_pane_hash,
 div.channel_browser_channel_shared_info.overflow_ellipsis,
 span.channel_browser_teams_info.margin_left_25,
 div.channel_browser_channel_purpose.sk_black.margin_bottom_25,
 p.dm_explanation.margin_auto.align_left.clear_both,
 div.faux_input,
-
-/* span.c-member__display-name.c-member__display-name--small, */
-
 button.edit_purpose.edit_purpose--blank.btn_link.block,
 a.creator_link,
 div.channel_desktop_notifs.small_bottom_margin,
@@ -1282,8 +1278,7 @@ div.c-enhanced_text_input,
 div.lfs_input_container.empty,
 #im_browser_tokens,
 div.feature_increase_msg_input_height.ql-container,
-div.flex_content_scroller
-{
+div.flex_content_scroller {
     background-color: #000 !important;
 }
 
@@ -1331,8 +1326,7 @@ button.c-message_actions__button,
 span.no_jumbomoji,
 ts-message.message.feature_fix_files.first.message_container_item,
 div#client_body::before,
-div.CodeMirror-code div
-{
+div.CodeMirror-code div {
     background-color: #222 !important;
 }
 
@@ -1353,8 +1347,9 @@ button.c-deprecated_button.c-deprecated_button--link.c-mrkdwn__subteam.c-mrkdwn_
     background-color: transparent !important;
 }
 
-.c-message_actions__button:hover {
-    color: var(--primary) !important;
+.c-message_actions__button:hover,
+button.channel_header_icon.btn_unstyle:hover {
+    color: var(--primary);
 }
 
 div.convo_flexpane_divider,
@@ -1510,78 +1505,96 @@ div#autocomplete_menu {
     border: 1px solid #222 !important;
 }
 
-div.c-menu{
+div.c-menu {
     background-color: #000 !important;
     border: 1px solid var(--primary);
-  }
-  [lang] .c-menu_item__button, [lang] .c-menu_item__button:link, [lang] .c-menu_item__button:visited{
+}
+
+[lang] .c-menu_item__button,
+[lang] .c-menu_item__button:link,
+[lang] .c-menu_item__button:visited {
     color: var(--text);
-  }
-  button.c-button-unstyled.c-menu_item__button.c-menu_item__button--highlighted:hover,
-  a.c-button-unstyled.c-menu_item__button.c-menu_item__button--highlighted:hover{
+}
+
+button.c-button-unstyled.c-menu_item__button.c-menu_item__button--highlighted:hover,
+a.c-button-unstyled.c-menu_item__button.c-menu_item__button--highlighted:hover {
     color: #fff !important;
     background-color: var(--primary);
-  }
-  
-  li.c-menu_item__li:hover button,
-  li.c-menu_item__li:hover a{
+}
+
+li.c-menu_item__li:hover button,
+li.c-menu_item__li:hover a {
     color: #fff !important;
     background-color: var(--primary);
-  }
-  button.c-button-unstyled.c-menu_item__button.c-menu_item__button--highlighted.c-menu_item__button--danger:hover,
-  li.c-menu_item__li:hover button.c-menu_item__button--danger{
+}
+
+button.c-button-unstyled.c-menu_item__button.c-menu_item__button--highlighted.c-menu_item__button--danger:hover,
+li.c-menu_item__li:hover button.c-menu_item__button--danger {
     color: #fff !important;
     background-color: #d81c1c !important;
-  }
-  .c-menu_separator__separator{
+}
+
+.c-menu_separator__separator {
     background-color: var(--primary);
-  }
+}
 
-  .c-file__action_button{
+.c-file__action_button {
     background-color: #222 !important;
-  }
+}
 
-  button.c-file__action_button:hover,
-  a.c-button-unstyled.c-file__action_button.c-file__action_button--icon:hover {
+.c-file__action_button:after {
+    border: 1px solid var(--primary);
+}
+
+button.c-file__action_button:hover,
+a.c-button-unstyled.c-file__action_button.c-file__action_button--icon:hover {
     color: var(--primary);
 }
 
 button.c-file__action_button,
 a.c-button-unstyled.c-file__action_button.c-file__action_button--icon {
     color: var(--text);
-}    .c-file__action_button{
+}
+
+.c-file__action_button {
     background-color: #222 !important;
-  }
-  
-  div.c-menu{
+}
+
+div.c-menu {
     background-color: #000 !important;
     border: 1px solid var(--primary);
-  }
-  [lang] .c-menu_item__button, [lang] .c-menu_item__button:link, [lang] .c-menu_item__button:visited{
+}
+
+[lang] .c-menu_item__button,
+[lang] .c-menu_item__button:link,
+[lang] .c-menu_item__button:visited {
     color: var(--text);
-  }
-  button.c-button-unstyled.c-menu_item__button.c-menu_item__button--highlighted:hover,
-  a.c-button-unstyled.c-menu_item__button.c-menu_item__button--highlighted:hover{
+}
+
+button.c-button-unstyled.c-menu_item__button.c-menu_item__button--highlighted:hover,
+a.c-button-unstyled.c-menu_item__button.c-menu_item__button--highlighted:hover {
     color: #fff !important;
     background-color: var(--primary);
-  }
-  
-  li.c-menu_item__li:hover button,
-  li.c-menu_item__li:hover a{
+}
+
+li.c-menu_item__li:hover button,
+li.c-menu_item__li:hover a {
     color: #fff !important;
     background-color: var(--primary);
-  }
-  button.c-button-unstyled.c-menu_item__button.c-menu_item__button--highlighted.c-menu_item__button--danger:hover,
-  li.c-menu_item__li:hover button.c-menu_item__button--danger{
+}
+
+button.c-button-unstyled.c-menu_item__button.c-menu_item__button--highlighted.c-menu_item__button--danger:hover,
+li.c-menu_item__li:hover button.c-menu_item__button--danger {
     color: #fff !important;
     background-color: #d81c1c !important;
-  }
-  .c-menu_separator__separator{
-    background-color: var(--primary);
-  }
+}
 
-  button.c-file__action_button:hover,
-  a.c-button-unstyled.c-file__action_button.c-file__action_button--icon:hover {
+.c-menu_separator__separator {
+    background-color: var(--primary);
+}
+
+button.c-file__action_button:hover,
+a.c-button-unstyled.c-file__action_button.c-file__action_button--icon:hover {
     color: var(--primary);
 }
 
