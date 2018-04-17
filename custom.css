@@ -1491,7 +1491,9 @@ div.ql-placeholder {
 }
 
 #autocomplete_menu.search_menu.unified .query_header,
-#chat_input_tab_ui.search_menu.unified .query_header {
+#chat_input_tab_ui.search_menu.unified .query_header,
+div.c-virtual_list__item,
+div#footer_msgs{
     background-color: #000 !important;
 }
 
