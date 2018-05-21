@@ -1246,7 +1246,8 @@ div.p-message_pane__foreword__description,
 span.c-message_attachment__pretext span,
 span.ts_toggle_on_label,
 span.c-message_attachment__media_trigger,
-div.c-message_attachment__body{
+div.c-message_attachment__body,
+span.c-unified_member__display-name.c-unified_member__display-name--small{
     color: var(--text) !important;
 }
 
@@ -1478,6 +1479,14 @@ span.c-message_list__unread_divider__label {
     color: #000;
     background: var(--primary);
 }
+
+  div.channel_page_member_row.active:hover .c-unified_member__display-name.c-unified_member__display-name--small,
+  div.channel_page_member_row.away:hover .c-unified_member__display-name.c-unified_member__display-name--small,
+  div.channel_page_member_row.away:hover,
+  div.channel_page_member_row.active:hover{
+      color: #000 !important;
+      background-color: var(--primary) !important;
+   }
 
 a.internal_member_link.ts_tip.ts_tip_top.ts_tip_float.ts_tip_member.mention.ts_tip_hidden:hover {
     color: var(--primary) !important;
