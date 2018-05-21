@@ -1623,3 +1623,7 @@ a.c-button-unstyled.c-file__action_button.c-file__action_button--icon {
      color: var(--primary) !important;
      background-color: transparent !important;
    }
+
+   span.token.channel_token{
+     background-color: #222 !important;
+   }
