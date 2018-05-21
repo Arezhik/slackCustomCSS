@@ -1245,7 +1245,8 @@ span.c-message_attachment__text span,
 div.p-message_pane__foreword__description,
 span.c-message_attachment__pretext span,
 span.ts_toggle_on_label,
-span.c-message_attachment__media_trigger {
+span.c-message_attachment__media_trigger,
+div.c-message_attachment__body{
     color: var(--text) !important;
 }
 
