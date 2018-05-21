@@ -1247,7 +1247,8 @@ span.c-message_attachment__pretext span,
 span.ts_toggle_on_label,
 span.c-message_attachment__media_trigger,
 div.c-message_attachment__body,
-span.c-unified_member__display-name.c-unified_member__display-name--small{
+span.c-unified_member__display-name.c-unified_member__display-name--small,
+span.p-tabcomplete-channel-item__channel{
     color: var(--text) !important;
 }
 
@@ -1616,3 +1617,9 @@ button.c-file__action_button,
 a.c-button-unstyled.c-file__action_button.c-file__action_button--icon {
     color: var(--text);
 }
+   .c-member_slug.c-member_slug--link.ts_tip_texty,
+   .c-member_slug.c-member_slug--link.c-member_slug--mention,
+   .c-mrkdwn__broadcast.c-mrkdwn__broadcast--link.c-mrkdwn__broadcast--mention{
+     color: var(--primary) !important;
+     background-color: transparent !important;
+   }
