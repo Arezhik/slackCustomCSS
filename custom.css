@@ -1251,7 +1251,8 @@ span.c-unified_member__display-name.c-unified_member__display-name--small,
 span.p-tabcomplete-channel-item__channel,
 .indifferent_grey.whats_new_content,
 p.small_bottom_margin.whats_new_content,
-div.whats_new_description p{
+div.whats_new_description p,
+div.snippet_preview.monospace {
     color: var(--text) !important;
 }
 
