@@ -1248,7 +1248,10 @@ span.ts_toggle_on_label,
 span.c-message_attachment__media_trigger,
 div.c-message_attachment__body,
 span.c-unified_member__display-name.c-unified_member__display-name--small,
-span.p-tabcomplete-channel-item__channel{
+span.p-tabcomplete-channel-item__channel,
+.indifferent_grey.whats_new_content,
+p.small_bottom_margin.whats_new_content,
+div.whats_new_description p{
     color: var(--text) !important;
 }
 
