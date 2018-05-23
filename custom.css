@@ -1252,7 +1252,14 @@ span.p-tabcomplete-channel-item__channel,
 .indifferent_grey.whats_new_content,
 p.small_bottom_margin.whats_new_content,
 div.whats_new_description p,
-div.snippet_preview.monospace {
+div.snippet_preview.monospace,
+h3.p-shortcuts_flexpane__title,
+div.p-shortcuts_flexpane__shortcut_title,
+span#shortcuts_tab_aria_label,
+h4.comment_label,
+table.member_data_table td,
+div.c-unified_member__display-name.c-unified_member__display-name--large,
+div.c-unified_member__title.c-unified_member__title--large{
     color: var(--text) !important;
 }
 
@@ -1286,7 +1293,8 @@ div.lfs_input_container.empty,
 #im_browser_tokens,
 div.feature_increase_msg_input_height.ql-container,
 div.flex_content_scroller,
-div.toolbar_container {
+div.toolbar_container,
+div.p-flexpane_header {
     background-color: #000 !important;
 }
 
@@ -1313,6 +1321,11 @@ div.popover_menu.popover_search_menu.unified.showing_query_header.showing_header
     border-color: #222;
 }
 
+aside.aside_panel{
+    background-color: #000 !important;
+    border-left: 1px solid #444 !important;
+  }
+
 footer.unified,
 div#chat_input_tab_ui_header,
 button.c-reaction,
@@ -1322,7 +1335,8 @@ button.c-reaction_add {
 }
 
 div.tab_complete_ui_item.active,
-li.tab_complete_ui_item.active {
+li.tab_complete_ui_item.active,
+div.team_list_item.member_item.cursor_pointer.active:hover {
     background-color: var(--primary) !important;
 }
 
@@ -1481,7 +1495,8 @@ span.c-message_list__unread_divider__label {
 
 #autocomplete_menu.search_menu .results.unified li.highlighted .result_item_btn,
 #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:focus .result_item_btn,
-#autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:hover .result_item_btn {
+#autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:hover .result_item_btn,
+div.user_group_item.small_padding.bottom_border.clearfix:hover {
     color: #000;
     background: var(--primary);
 }
