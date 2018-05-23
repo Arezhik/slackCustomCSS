@@ -1284,7 +1284,8 @@ div.c-enhanced_text_input,
 div.lfs_input_container.empty,
 #im_browser_tokens,
 div.feature_increase_msg_input_height.ql-container,
-div.flex_content_scroller {
+div.flex_content_scroller,
+div.toolbar_container {
     background-color: #000 !important;
 }
 
