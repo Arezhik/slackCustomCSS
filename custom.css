@@ -1220,7 +1220,6 @@ td.member_preview_timezone,
 td.member_preview_timezone a,
 tr td a,
 span.current_status_placeholder,
-a.member_name.internal_im_link,
 div.member_title,
 div.current_status_cover_content,
 span.timezone,
@@ -1673,4 +1672,13 @@ span.token.channel_token{
 .sidebar_menu_list_item:not(.is_active):hover {
     background-color: #28acff; /* eaf5fc; */
     border-color: #0694ee; /* dcf0fb */
+}
+
+.member_details_over_image {
+    background-color: #23232391;
+    padding: 2px;
+}
+
+a.member_name.internal_im_link {
+    color: var(--text-bright) !important;
 }
