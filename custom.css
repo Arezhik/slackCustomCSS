@@ -806,6 +806,14 @@ ts-message .reply_bar:hover {
     color: var(--text) !important;
 }
 
+button.p-message_input_plus {
+    color: var(--text) !important;
+    background-color: var(--background) !important;
+}
+
+div.p-message_input_field {
+    background-color: var(--background) !important;
+}
 
 /* other */
 
