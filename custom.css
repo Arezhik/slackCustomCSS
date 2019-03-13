@@ -19,7 +19,8 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+span.c-timestamp__label{
     color: var(--text);
 }
 
@@ -786,6 +787,21 @@ ts-message .reply_bar:hover {
     border: 1px solid var(--border-dim) !important;
 }
 
+/*Reply button and text on main message window*/
+div.c-message__reply_bar,
+span.c-message__reply_bar_last_reply,
+span.c-message__reply_bar_view_thread{
+	    background: #444 !important;
+		color: var(--text) !important;
+}
+
+/*Reaction buttons*/
+button.c-button-unstyled.c-reaction.c-reaction--feature_new_reactions,
+button.c-button-unstyled.c-reaction_add.c-reaction_add--feature_new_reactions{
+	   background:#444 !important;
+	   color: var(--text) !important;
+   }
+
 
 /* editor in thread reply */
 
@@ -1319,7 +1335,8 @@ div.lfs_input_container.empty,
 div.feature_increase_msg_input_height.ql-container,
 div.flex_content_scroller,
 div.toolbar_container,
-div.p-flexpane_header {
+div.p-flexpane_header,
+div.c-scrollbar__hider {
     background-color: #000 !important;
 }
 
@@ -1431,6 +1448,11 @@ div.c-message.c-message--light.c-message--hover {
     background-color: #222 !important;
 }
 
+/*Main message containers*/
+div.c-message.c-message--hover{
+   background: #222 !important
+}
+
 pre.special_formatting {
     background-color: #222 !important;
     color: #8f8f8f !important;
@@ -1443,11 +1465,8 @@ hr.c-message_list__day_divider__line {
 }
 
 div.c-message_list__day_divider__label__pill {
-    background-color: #000;
-    color: #8f8f8f;
-    border: solid;
-    border-color: var(--primary) !important;
-    border-width: 1px;
+    background: var(--background-elevated) !important;
+	color: var(--text) !important;
 }
 
 div.unread_group_header.display_flex.justify_content_between,
