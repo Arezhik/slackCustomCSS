@@ -67,6 +67,21 @@ body:not(.loading) #team_menu:active {
     background-color: var(--background-elevated) !important;
 }
 
+/* Thread header colors */
+.p-threads_flexpane__header_channel_name {
+    color: var(--text) !important;
+}
+
+.c-icon--times {
+    color: white !important;
+}
+
+/* hacky select for div that holds button: .p-channel_sidebar__jumper */
+div[style="height\: 52px;"][role="listitem"] {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
 .p-channel_sidebar__channel,
 .p-channel_sidebar__link,
 .p-channel_sidebar__channel:link,
